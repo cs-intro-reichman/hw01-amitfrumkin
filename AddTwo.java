@@ -8,6 +8,6 @@ public class AddTwo {
 		int b = Integer.parseInt(args[1]) ;
 		int sum = a+b ;
 		
-		System.out.println(a + "+" + b + "=" + sum	
+		System.out.println(a + "+" + b + "=" + sum) ;	
 	}
 }
