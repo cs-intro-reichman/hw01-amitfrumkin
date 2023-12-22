@@ -9,9 +9,9 @@ public class GenThree {
 		int maxBorder = Math.max (Integer.parseInt(args[0]),Integer.parseInt(args[1])) ;
 		int range = maxBorder - minBorder ;
 
-		int a =(int)( Math.random()*range) + minBorder ;
-		int b =(int)( Math.random()*range) + minBorder ;
-		int c =(int)( Math.random()*range) + minBorder ;
+		int a =(int)( Math.random()*range + 1) + minBorder ;
+		int b =(int)( Math.random()*range + 1) + minBorder ;
+		int c =(int)( Math.random()*range + 1) + minBorder ;
 
 		System.out.println("The 3 numbers are:") ; 	
 		System.out.println(a) ; 	
