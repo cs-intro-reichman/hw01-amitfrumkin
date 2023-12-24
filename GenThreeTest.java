@@ -41,6 +41,7 @@ public class GenThreeTest {
     }
 
     public static boolean isValid(String output, String a, String b) {
+        System.out.println("a is:" + a + "b is " + b);
         String[] lines = output.split("\\r?\\n");
         int[] intArray = new int[3];
         for (int i = 0; i < 3; i++) {
@@ -51,6 +52,7 @@ public class GenThreeTest {
         
         // Check if each element in intArray is within the range
         for (int number : intArray) {
+            System.out.println(number);
             if (number < lowerBound || number >= upperBound) {
                 return false;
             }
