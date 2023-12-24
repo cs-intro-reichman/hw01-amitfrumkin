@@ -20,6 +20,6 @@ public class GenThree {
 		int minNumTemp = Math.min(a,b) ;
 		int minNum = Math.min(minNumTemp,c) ;
 
-		System.out.println("the minimal generated number was:" + minNum) ; 	
+		System.out.println(minNum) ; 	
 	}
 }
