@@ -13,7 +13,6 @@ public class GenThree {
 		int b =(int)( Math.random()*range + 1) + minBorder ;
 		int c =(int)( Math.random()*range + 1) + minBorder ;
 
-		System.out.println("The 3 numbers are:") ; 	
 		System.out.println(a) ; 	
 		System.out.println(b) ; 
 		System.out.println(c) ; 
