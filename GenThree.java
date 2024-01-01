@@ -17,8 +17,15 @@ public class GenThree {
 		System.out.println(b) ; 
 		System.out.println(c) ; 
 
-		int minNumTemp = Math.min(a,b) ;
-		int minNum = Math.min(minNumTemp,c) ;
+		/*
+		#Feedback:
+   		Generally you can use the same variable and override it after finding the first minimum.
+     		However, if you choose to use 2 different variables, it's better to give a meaningful name which is not temp.
+		('temp' is always bad name!)
+		I might use something like: minAB & minAll
+		*/
+		int minNum = Math.min(a,b) ;
+		minNum = Math.min(minNum,c);
 
 		System.out.println("The minimal generated number was " + minNum) ; 	
 	}
